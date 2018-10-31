@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="381dp"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">>
+
+        <Button
+            android:id="@+id/back_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark"
+            android:text="Back"
+            android:textColor="@color/button_text"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/campDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_Btn"
+            android:padding="20dp"
+            android:text="Campground Details"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/campName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/campDetails"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+
+            android:text="Leavenworth KOA"
+            android:textColor="@color/dark_brown"
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="101dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/campName"
+            android:paddingLeft="0dp"
+            android:paddingBottom="20dp"
+            android:text="Located in close to Lake Wenatchee and the town of Leavenworth"
+            android:textColor="@color/colorAccent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <Button
+            android:id="@+id/callUs"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Call Us"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/directions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/callUs"
+            android:layout_marginTop="18dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:text="Directions"
+            android:textColor="@color/button_text" />
+
+        <Button
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/directions"
+            android:layout_marginTop="19dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:text="Visit Our Website"
+            android:textColor="@color/button_text" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

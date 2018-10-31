@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#EDCDAE</color>
+  <!--  <color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimaryDark">#578037</color>
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <color name="colorAccent">#C47C43 </color>
+    <color name="button_Background">#BCB434</color>
+    <color name="button_text">#ffffff</color>
+    <color name="dark_brown">#946C54</color>
+
+</resources>
+<!--/*Colors*/
+/*#5C6464 dark grey*/
+/*#BCB434  moss green*/
+/*#C47C43 brown-orange*/
+/*#EBD38A light tan*/
+/*#946C54 dark brown*/
+/*background-color:#EDCDAE; light tan*/
+/*border-color: #946C54; for background border*/
+/*color: #578037; main title color dark green and for buttons*/
+/*color: /*#C47C43 brown-orange brown for other writing*/-->
